@@ -7,7 +7,7 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="120dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -20,10 +20,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="-2dp"
+        android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textAllCaps="false"
         android:textSize="24sp"
         tools:text="Fast Furious Presents: Hobbs Show" />
 
@@ -31,10 +29,11 @@
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="56dp"
+        android:layout_below="@+id/ivTitle"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:text="TextView"
+        tools:ignore="UnknownId"
         tools:text="A spinoff of The Fate of the Furious, focusing on Johnson's US diplomatic Security Agent Luke Hobbs forming an unlikely alliance with Statham's Deckard Show." />
 </RelativeLayout>
